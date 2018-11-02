@@ -17,7 +17,7 @@
 #
 
 export PF=$1
-export DIR=/home/tanja/uzh-corpuslab-normalization
+export DIR=/home/tanja/uzh-corpuslab-pos-normalization
 
 # data paths
 export DATA=$DIR/data/wus/$1

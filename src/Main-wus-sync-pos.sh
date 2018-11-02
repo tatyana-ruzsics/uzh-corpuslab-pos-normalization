@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./Main-wus-sync.sh DATA_FOLDER_NAME DATA_PREFIX RESULT_FOLDER_NAME NMT_ENSEMBLES BEAM SYNC_MODEL_TYPE NMT_MODEL_TYPE NMT_SEED(if not ensemble)
+# Usage: ./Main-wus-sync.pos.sh DATA_FOLDER_NAME DATA_PREFIX RESULT_FOLDER_NAME NMT_ENSEMBLES BEAM SYNC_MODEL_TYPE NMT_MODEL_TYPE NMT_SEED(if not ensemble)
 # Usage: ./Main-wus-sync-pos.sh btagger wus_bt wus_phase2 1 3 we norm_soft 1
 # Usage: ./Main-wus-sync-pos.sh btagger wus_bt wus_phase2 1 3 we norm_soft_pos 1
 
@@ -19,7 +19,7 @@
 #
 
 export PF=$2
-export DIR=/home/tanja/uzh-corpuslab-normalization
+export DIR=/home/tanja/uzh-corpuslab-pos-normalization
 
 # data paths
 export DATA=$DIR/data/wus/phase2/$1
